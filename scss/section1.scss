@@ -1,12 +1,12 @@
 section.section1{
     background: url(../images/bgsmall1.jpg);
-    height: 750px;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: space-between;
+    gap: 100px;
     align-items: center;
-    padding: 200px;
+    padding: 100px;
    
   
   img{
@@ -45,6 +45,8 @@ section.section1{
     height: 550px;
     width: 450px;
     border-radius: 8px;
+    position: relative;
+   
   
     h1{
       background: rgba(211, 211, 211, 0.473);
@@ -76,10 +78,10 @@ section.section1{
   .radio1{
     padding-left: 50px;
     padding-right: 50px;
-    position: relative;
+    
   
     input{
-      accent-color: $green;
+      accent-color: #41D395 ;
     }
   
   h3{
@@ -89,15 +91,15 @@ section.section1{
   }
   
   button{
-    background: $green;
-    width: 450px;
+    background: #41D395;
+    width: 100%;
     height: 70px;
     padding-top: 23px;
     padding-bottom: 30px;
     font-size: 1.3em;
     border: none;
     position: absolute;
-    bottom: 319px;
+    bottom: 0;
     border-radius: 0 0 8px 8px;
     font-weight:500;
   }

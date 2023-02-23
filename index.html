@@ -75,30 +75,47 @@
 
 <section class="section2">
   <div class="buttons">
-    <button class="button" onclick="showTab('pirmas')">Register</button>
-    <button class="button" onclick="showTab('antras')">apply</button>
-    <button class="button" onclick="showTab('trecias')">receive</button>
+    <button class="button" onclick="showTab('pirmas')"><span>Register</span></button>
+    <button class="button" onclick="showTab('antras')"><span>apply</span></button>
+    <button class="button" onclick="showTab('trecias')"><span>receive</span></button>
 </div>
 
 <div class="tabs">
 
     <div class="tab" id="pirmas">
-      <div class="txt"><p>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</p></div>
-      <div class="img"><img src="app/images/img1.png" alt="img1"></div>
+      <p>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</p>
+      <div class="img">
+
+        <img class="img1" src="app/images/img1.png" alt="img1">
+        <!-- <div class="overlay">
+          <div class="text">explore</div>
+        </div> -->
+        
+        
+        <img class="img2" src="app/images/img2.png" alt="img2">
+        <img class="img3" src="app/images/img3.png" alt="img3">
+      </div>
     </div>
 
     <div class="tab" id="antras">
      
-      <div class="txt"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. </p></div>
-      <div class="img"><img src="app/images/img2.png" alt="img2"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. </p>
+      <div class="img"><img class="img1" src="app/images/img1.png" alt="img1">
+        <img class="img2" src="app/images/img2.png" alt="img2">
+        <img class="img3" src="app/images/img3.png" alt="img3">
+      </div>
       
     </div>
 
 
     <div class="tab" id="trecias">
-      <div class="txt"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
-      </p></div>
-     <div class="img"> <img src="app/images/img3.png" alt="img3"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+      </p>
+      <div class="img"><img class="img1" src="app/images/img1.png" alt="img1">
+        <img class="img2" src="app/images/img2.png" alt="img2">
+        <img class="img3" src="app/images/img3.png" alt="img3">
+      </div>
+
     </div>
 
 </div>
@@ -275,10 +292,10 @@
 </div>
   <div class="radio2">
   <input type="radio" id="personal" name="user" value="personal">
-  <label for="personal">personal</label>
+<label for="personal">personal</label>
 
-  <input type="radio" id="company" name="user" value="company">
-  <label for="company">company</label>
+<input type="radio" id="company" name="user" value="company">
+<label for="company">company</label>
 </div>
   <button type="submit">Send</button>
   </form>

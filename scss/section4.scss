@@ -20,7 +20,7 @@ section.section4{
       margin: auto;
       width: 5%;
       height: 0.3em;
-      background-color: $salmon;
+      background-color: #E27866;
       border: none;
     }
    
@@ -30,7 +30,7 @@ section.section4{
       text-align: center;
       padding: 100px;
       width: 90%;
-      margin-left: 90px;
+      margin-left: 70px;
       gap: 30px;
   
       .review1, .review2, .review3{
@@ -39,10 +39,10 @@ section.section4{
   
       
     i{
-      color: $salmon;
+      color: #E27866;
       padding: 20px;
       border-radius: 50%;
-      border: 2px solid $salmon;
+      border: 2px solid #E27866;
       font-size: 1.6em;
       margin-bottom: 50px;
     }

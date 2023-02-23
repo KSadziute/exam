@@ -11,7 +11,7 @@ section.section6{
       margin: auto;
       width: 5%;
       height: 0.3em;
-      background-color: $blue;
+      background-color:#6696E2 ;
       border: none;
     }
   
@@ -40,7 +40,7 @@ section.section6{
     }
   
       .chat{
-        background: $blue;
+        background: #6696E2;
         padding: 25px;
         width: 300px;
         margin-bottom: 50px;
@@ -59,7 +59,7 @@ section.section6{
       width: 0;
       z-index: 0;
       border-style: solid;
-      border-color:  $blue transparent;
+      border-color:  #6696E2 transparent;
       border-width: 13px 11px 0;
       bottom: -13px;
       left: 22%;
@@ -68,3 +68,4 @@ section.section6{
       }
     }
   }
+  

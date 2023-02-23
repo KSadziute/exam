@@ -1,12 +1,13 @@
 header{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     padding: 0 70px;
-    height: 100px;
+    height: 125px;
     
     img{
       height: 40px;
-      margin-top: 25px;
+      margin-top: 40px;
       margin-right: 100px;
     }
   
@@ -14,14 +15,14 @@ header{
       i{
         font-size: 2em;
         transform: rotateZ(45deg);
-        color: $salmon;
-        margin-top: 25px;
+        color:#E27866 ;
+        margin-top: 40px;
         margin-right: 100px;
       }
     
   
     h5{
-      font-size: 1.4em;
+      font-size: 1.3em;
       padding-top: 25px;
       padding-left: 30px;
     }
@@ -29,7 +30,7 @@ header{
     p{
       padding-top: 7px;
       color: grey;
-      font-size: 1.2em;
+      font-size: 1em;
       padding-left: 30px;
     }
   

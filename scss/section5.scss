@@ -1,6 +1,6 @@
 section.section5{
-    background: $blue;
-    // height: 750px;
+    background: #6696E2;
+   
    
     h1{
       text-align: center;
@@ -22,18 +22,19 @@ section.section5{
       margin: auto;
       width: 5%;
       height: 0.3em;
-      background-color: $green;
+      background-color: #41D395;
       border: none;
     }
     
   .prices{
     display: flex;
     justify-content: space-between;
+    gap: 40px;
     text-align: center;
     align-items: flex-end;
     width: 90%;
     padding-bottom: 100px;
-    padding-left: 200px;
+    padding-left: 150px;
     
    h2{
     color: white;
@@ -72,8 +73,8 @@ section.section5{
         to bottom,
         black 0%,
         black 53%,
-        $green 53%,
-        $green 59%,
+        #41D395 53%,
+        #41D395 59%,
         white 59%,
         white 100%
       );
@@ -86,8 +87,8 @@ section.section5{
         to bottom,
         black 0%,
         black 55%,
-        $green 55%,
-        $green 56%,
+        #41D395 55%,
+        #41D395 56%,
         white 56%,
         white 100%
       );    

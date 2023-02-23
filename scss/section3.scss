@@ -3,22 +3,22 @@ section.section3{
     color: white;
     display: flex;
     justify-content: space-between;
-    height: 750px;
+    // height: 750px;
     gap: 150px;
   
     img{
       height: 30%;
       width: 50%;
       margin-top: 250px;
-      padding-left: 200px;
+      padding-left: 150px;
     }
   
   i{
     color: white;
     padding: 15px;
     border-radius: 50%;
-    border: 2px solid $salmon;
-    background: $salmon;
+    border: 2px solid #E27866;
+    background: #E27866;
     font-size: 1.6em;
     margin-bottom: 20px;
     margin-top: -30px;
@@ -27,7 +27,8 @@ section.section3{
   
   .text{
     margin-top: 100px;
-    padding-right: 300px;
+    padding-right: 150px;
+    margin-bottom: 100px;
   
   
     h1{
@@ -43,7 +44,7 @@ section.section3{
   
     hr{
       width: 30%;
-      background-color: $salmon;
+      background-color: #E27866;
       height: 0.3em;
       border: none;
     }
