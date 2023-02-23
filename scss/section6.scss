@@ -1,0 +1,70 @@
+section.section6{
+    height: 750px;
+    h1{
+      font-size: 3em;
+      text-align: center;
+      padding-top: 100px;
+      margin-bottom: 50px;
+    }
+  
+    hr{
+      margin: auto;
+      width: 5%;
+      height: 0.3em;
+      background-color: $blue;
+      border: none;
+    }
+  
+    .swiper {
+      width: 70%;
+      height: 400px;
+      margin-top: 70px;
+      z-index: -1;
+    }
+    
+    .swiper-slide {
+      font-size: 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: -1;
+  
+    img{
+        float: left;
+        margin-right: 30px;
+        
+      }
+  
+    .people2{
+    margin-bottom: -42px;
+    }
+  
+      .chat{
+        background: $blue;
+        padding: 25px;
+        width: 300px;
+        margin-bottom: 50px;
+        margin-top: -100px;
+        border-radius: 10px;
+        color: white;
+        font-weight: lighter;
+        position: relative;
+        z-index: 0;
+        
+  
+      &::after{
+      content: '';
+      position: absolute;
+      display: block;
+      width: 0;
+      z-index: 0;
+      border-style: solid;
+      border-color:  $blue transparent;
+      border-width: 13px 11px 0;
+      bottom: -13px;
+      left: 22%;
+      margin-left: -11px;
+        }
+      }
+    }
+  }

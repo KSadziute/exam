@@ -1,0 +1,62 @@
+section.section4{
+
+
+    h1{
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 3em;
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+  
+    p{
+      text-align: center;
+      margin: 50px 0;
+      font-size: 1.3em;
+  
+    }
+  
+    hr{
+      margin: auto;
+      width: 5%;
+      height: 0.3em;
+      background-color: $salmon;
+      border: none;
+    }
+   
+    .reviews{
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      padding: 100px;
+      width: 90%;
+      margin-left: 90px;
+      gap: 30px;
+  
+      .review1, .review2, .review3{
+        width: 300px;
+      }
+  
+      
+    i{
+      color: $salmon;
+      padding: 20px;
+      border-radius: 50%;
+      border: 2px solid $salmon;
+      font-size: 1.6em;
+      margin-bottom: 50px;
+    }
+  
+    p{
+      color: grey;
+      font-size: 1.2em;
+      padding-top: 20px;
+    }
+  
+    h3{
+      font-size: 1.9em;
+      margin-bottom: -40px;
+    }
+    }
+  
+  }

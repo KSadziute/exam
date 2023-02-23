@@ -1,0 +1,32 @@
+footer{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    height: 100px;
+  
+    .icons{
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+    }
+  
+    h1{
+      color: rgba(211, 211, 211, 0.425);
+      font-size: 1.3em;
+      font-weight: lighter;
+      padding-top: 35px;
+      padding-right: 30px;
+    }
+   
+    img{
+      height: 25px;
+    }
+  
+    i{
+      font-size: 1.4em;
+      transform: rotateZ(45deg);
+      color: #934e42;
+    }
+  }

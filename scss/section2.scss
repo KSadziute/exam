@@ -1,0 +1,56 @@
+section.section2{
+    background: url(../images/bgtabs.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    padding: 100px;
+  
+    .buttons{
+      float: left;
+      width: 33%;
+    }
+  
+  button{
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin: 30px;
+  color: white;
+  background: #A37169;
+  border: none;
+  }
+  
+  
+  .tabs{
+    font-size: 2em;
+    border: 3px solid black;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr;
+    // column-gap: 5px;
+    // align-items: center;
+    // // width: 800px;
+    height: 700px;
+  
+     
+  .tab{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    align-items: center
+  }
+  
+     img {
+       max-width: 100%;
+       max-height:100%;
+     }
+     
+     .txt {
+       font-size: 1.5em;
+       padding-bottom: 50px;
+     }
+  
+  }
+  
+  
+  
+  }

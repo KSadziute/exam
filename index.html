@@ -7,11 +7,13 @@
   <title>exam</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="app/css/style.css">
 
 </head>
 <body>
-  
+
 <nav>
     <img src="app/images/logo.svg" alt="logo">
    <div class="links">
@@ -31,19 +33,30 @@
 <p>Insipidity the sufficient discretion imprudence resolution sir him decisively.<br> Proceed how any engaged visitor. Explained propriety of out perpetual his you. <br> Feel sold off felt nay rose met you. We so entreaties cultivated astonished is.</p>
 <button>download</button>
 </div>
-<form action="">
+<form class="form1" action="#">
+
+<h1>Try Your <span style="color: #E27866">FREE</span> Trial Today</h1>
+
+<div class="form11">
   <h3>Your Details</h3>
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname" value="Doe"><br>
-  <label for="number">phone number</label>
-  <input type="text" id="number" name="number" value="Doe"><br>
+  <label for="fname"></label>
+  <input type="text" id="fname" name="fname" placeholder="First name">
+  
+  <label for="lname"></label>
+  <input type="text" id="lname" name="lname" placeholder="Last name">
+  
+  <label for="number"></label>
+  <input type="tel" id="number" name="number" placeholder="Phone number">
+</div>
+
+<div class="radio1">
   <h3>Type of subscription</h3>
-  <input type="radio" id="html" name="fav_language" value="HTML">
-  <label for="monthly">monthly</label><br>
-  <input type="radio" id="monthly" name="fav_language" value="CSS">
-  <label for="yearly">Yearly</label><br>
+  <input type="radio" id="monthly" name="howOften" value="monthly">
+  <label for="monthly">Monthly</label>
+
+  <input type="radio" id="yearly" name="howOften" value="yearly">
+  <label for="yearly">Yearly</label>
+</div>
   <button>get started</button>
 </form>
 </section>
@@ -61,28 +74,33 @@
 </header>
 
 <section class="section2">
-    <h2>Tabs</h2>
-<p>Click on the buttons inside the tabbed menu:</p>
-
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  <div class="buttons">
+    <button class="button" onclick="showTab('pirmas')">Register</button>
+    <button class="button" onclick="showTab('antras')">apply</button>
+    <button class="button" onclick="showTab('trecias')">receive</button>
 </div>
 
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-</div>
+<div class="tabs">
 
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p> 
-</div>
+    <div class="tab" id="pirmas">
+      <div class="txt"><p>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</p></div>
+      <div class="img"><img src="app/images/img1.png" alt="img1"></div>
+    </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
+    <div class="tab" id="antras">
+     
+      <div class="txt"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. </p></div>
+      <div class="img"><img src="app/images/img2.png" alt="img2"></div>
+      
+    </div>
+
+
+    <div class="tab" id="trecias">
+      <div class="txt"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+      </p></div>
+     <div class="img"> <img src="app/images/img3.png" alt="img3"></div>
+    </div>
+
 </div>
 </section>
 
@@ -142,7 +160,7 @@
   <div class="prices">
     <div class="price1">
       <h2>basic</h2>
-      <h1>$0</h1>
+      <h1><span style="font-size: 0.5em;">$</span>0</h1>
       <p>Free for Life</p>
       <h3>1 GB of space</h3> <br>
       <h3>10 GB of bandwith</h3> <br>
@@ -154,8 +172,8 @@
 
     <div class="price2">
       <h2>professional</h2>
-      <h1>$19</h1>
-      <p>monthly payment</p>
+      <h1><span style="font-size: 0.5em;">$</span>19</h1>
+      <p>Monthly payment</p>
       <h3 style="color: white;">Our most popular</h3> <br>
       <h3>5 GB of space</h3> <br>
       <h3>50 GB of bandwith</h3> <br>
@@ -168,8 +186,8 @@
 
     <div class="price3">
       <h2>enterprise</h2>
-      <h1>$70</h1>
-      <p>monthly payment</p>
+      <h1><span style="font-size: 0.5em;">$</span>70</h1>
+      <p>Monthly payment</p>
       <h3>unlimited space</h3> <br>
       <h3>unlimited bandwith</h3> <br>
       <h3>100 websites</h3> <br>
@@ -184,11 +202,86 @@
 <section class="section6">
   <h1>WHAT OUR CUSTOMERS ARE SAYING</h1>
   <hr>
+  <div class="swiper">
+    
+    <div class="swiper-wrapper">
+     
+      <div class="swiper-slide">
+        <div class="people1">
+          <div class="chat">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</p>
+          </div>
+            <img src="app/images/avatar.png" alt="avatar">
+            <h3>Jeremy H.</h3>
+            <p>Manager</p>
+          
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+ <div class="people2">
+        <div class="chat">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</p>
+         </div> 
+            <img src="app/images/avatar.png" alt="avatar">
+            <h3>John S.</h3>
+            <p>Freelancer</p>
+        </div>
+      </div>
+
+
+      <div class="swiper-slide">
+        <div class="people1">
+          <div class="chat">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</p>
+          </div>
+            <img src="app/images/avatar.png" alt="avatar">
+            <h3>Susan W.</h3>
+            <p>Photographer</p>
+          
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="people2">
+          <div class="chat">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</p>
+          </div>
+            <img src="app/images/avatar.png" alt="avatar">
+            <h3>Dan T.</h3>
+            <p>Entrepreneur</p>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="swiper-pagination"></div>
 </section>
 
 <section class="section7">
   <h1>Contact us</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+  <form  class="form2" action="#">
+  
+  <div class="form22">
+    <label for="fname"></label>
+  <input type="text" id="fname" name="fname" placeholder="First name">
+
+  <label for="lname"></label>
+  <input type="text" id="lname" name="lname" placeholder="Last name">
+
+  <label for="phone"></label>
+  <input type="tel" id="phone" name="phone" placeholder="Phone number"> 
+</div>
+  <div class="radio2">
+  <input type="radio" id="personal" name="user" value="personal">
+  <label for="personal">personal</label>
+
+  <input type="radio" id="company" name="user" value="company">
+  <label for="company">company</label>
+</div>
+  <button type="submit">Send</button>
+  </form>
 </section>
 
 <footer>
@@ -202,6 +295,9 @@
   <h1>© 2019 Cheshire County</h1>
 </footer>
 
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="swiper.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

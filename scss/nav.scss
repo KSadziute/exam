@@ -1,0 +1,25 @@
+nav{
+    background: black;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 100px;
+      height: 75px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+   
+  .links{
+    padding-top: 30px;
+  }
+  
+  img{
+      padding: 10px 0;
+     }
+  
+      a{
+        color: white;
+        text-decoration: none;
+        margin-right: 25px;   
+  }
+  }

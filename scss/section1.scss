@@ -1,0 +1,105 @@
+section.section1{
+    background: url(../images/bgsmall1.jpg);
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px;
+   
+  
+  img{
+    height: 160px;
+  }
+  
+    h2{
+      color: white;
+      margin: 40px 0;
+      font-size: 2.5em;
+      width: 500px;
+    }
+  
+  hr{
+    width: 10%;
+    background-color: white;
+  }
+  
+    p{
+      color: white;
+      margin: 40px 0;
+      font-size: 1.1em;
+    }
+    
+    button{
+  height: 40px;
+  width: 130px;
+  text-transform: uppercase;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+    }
+  
+  .form1{
+    background: white;
+    height: 550px;
+    width: 450px;
+    border-radius: 8px;
+  
+    h1{
+      background: rgba(211, 211, 211, 0.473);
+      text-align: center;
+      padding: 20px;
+      border-radius: 8px 8px 0 0;
+    }
+  
+  .form11{
+    padding: 50px;
+   
+  
+    input{
+    width: 90%;
+    border: transparent;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    padding-left: 7px;
+    margin: auto;
+    font-size: 0.9em;
+  }
+  
+  label{
+    display: block;
+    margin-bottom: 20px;
+  }
+  }
+  
+  .radio1{
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+  
+    input{
+      accent-color: $green;
+    }
+  
+  h3{
+    margin-bottom: 30px;
+  }
+    
+  }
+  
+  button{
+    background: $green;
+    width: 450px;
+    height: 70px;
+    padding-top: 23px;
+    padding-bottom: 30px;
+    font-size: 1.3em;
+    border: none;
+    position: absolute;
+    bottom: 319px;
+    border-radius: 0 0 8px 8px;
+    font-weight:500;
+  }
+  }
+  }

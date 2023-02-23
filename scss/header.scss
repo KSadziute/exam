@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    height: 100px;
+    
+    img{
+      height: 40px;
+      margin-top: 25px;
+      margin-right: 100px;
+    }
+  
+    
+      i{
+        font-size: 2em;
+        transform: rotateZ(45deg);
+        color: $salmon;
+        margin-top: 25px;
+        margin-right: 100px;
+      }
+    
+  
+    h5{
+      font-size: 1.4em;
+      padding-top: 25px;
+      padding-left: 30px;
+    }
+  
+    p{
+      padding-top: 7px;
+      color: grey;
+      font-size: 1.2em;
+      padding-left: 30px;
+    }
+  
+  }
