@@ -27,7 +27,7 @@ span{
 }
 
 &:hover{
-  background: #E27866;
+  background: $salmon;
 }
 }
     
@@ -72,7 +72,7 @@ span{
   // width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #E27866
+  background-color: $salmon;
   }
 
   &:hover .overlay{

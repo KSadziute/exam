@@ -11,7 +11,7 @@ section.section6{
       margin: auto;
       width: 5%;
       height: 0.3em;
-      background-color:#6696E2 ;
+      background-color: $blue;
       border: none;
     }
   
@@ -19,13 +19,11 @@ section.section6{
       width: 70%;
       height: 400px;
       margin-top: 70px;
-      z-index: -1;
     }
     
     .swiper-slide {
       font-size: 18px;
-      display: flex;
-      justify-content: space-between;
+      @include flexSpace;
       align-items: center;
       z-index: -1;
   
@@ -40,7 +38,7 @@ section.section6{
     }
   
       .chat{
-        background: #6696E2;
+        background: $blue;
         padding: 25px;
         width: 300px;
         margin-bottom: 50px;
@@ -59,7 +57,7 @@ section.section6{
       width: 0;
       z-index: 0;
       border-style: solid;
-      border-color:  #6696E2 transparent;
+      border-color:  $blue transparent;
       border-width: 13px 11px 0;
       bottom: -13px;
       left: 22%;

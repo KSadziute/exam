@@ -1,3 +1,12 @@
+$blue:#6696E2;
+$green: #41D395;
+$salmon: #E27866;
+
+@mixin flexSpace{
+  display: flex;
+  justify-content: space-between;
+}
+
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 @import 'nav';
@@ -11,12 +20,6 @@
 @import 'section7';
 @import 'footer';
 @import 'media';
-
-
-// $blue:#6696E2;
-// $green: #41D395;
-// $salmon: #E27866;
-
 
 *{
   padding: 0;

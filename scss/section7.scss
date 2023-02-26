@@ -1,5 +1,5 @@
 section.section7{
-    background: #E27866;
+    background: $salmon;
     height: 750px;
   
     h1{
@@ -48,13 +48,13 @@ section.section7{
    
   
     input{
-      accent-color: #41D395;
-      border-color: #41D395;
+      accent-color: $green;
+      border-color: $green;
     }
   }
   
   button{
-    background-color: #41D395;
+    background-color: $green;
     border: none;
     width: 150px;
     height: 40px;

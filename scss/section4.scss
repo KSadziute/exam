@@ -20,13 +20,12 @@ section.section4{
       margin: auto;
       width: 5%;
       height: 0.3em;
-      background-color: #E27866;
+      background-color: $salmon;
       border: none;
     }
    
     .reviews{
-      display: flex;
-      justify-content: space-between;
+      @include flexSpace;
       text-align: center;
       padding: 100px;
       width: 90%;
@@ -39,10 +38,10 @@ section.section4{
   
       
     i{
-      color: #E27866;
+      color: $salmon;
       padding: 20px;
       border-radius: 50%;
-      border: 2px solid #E27866;
+      border: 2px solid $salmon;
       font-size: 1.6em;
       margin-bottom: 50px;
     }

@@ -1,21 +1,21 @@
 header{
-    display: flex;
-    justify-content: space-between;
+  @include flexSpace;
     gap: 20px;
     padding: 0 70px;
     height: 125px;
+   
+   
     
     img{
-      height: 40px;
-      margin-top: 40px;
+      height: 1px;
+      margin-top: 10px;
       margin-right: 100px;
     }
   
     
       i{
         font-size: 2em;
-        transform: rotateZ(45deg);
-        color:#E27866 ;
+        color: $salmon ;
         margin-top: 40px;
         margin-right: 100px;
       }

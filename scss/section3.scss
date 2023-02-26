@@ -1,8 +1,7 @@
 section.section3{
     background: black;
     color: white;
-    display: flex;
-    justify-content: space-between;
+    @include flexSpace;
     // height: 750px;
     gap: 150px;
   
@@ -17,8 +16,8 @@ section.section3{
     color: white;
     padding: 15px;
     border-radius: 50%;
-    border: 2px solid #E27866;
-    background: #E27866;
+    border: 2px solid $salmon;
+    background: $salmon;
     font-size: 1.6em;
     margin-bottom: 20px;
     margin-top: -30px;
@@ -44,7 +43,7 @@ section.section3{
   
     hr{
       width: 30%;
-      background-color: #E27866;
+      background-color: $salmon;
       height: 0.3em;
       border: none;
     }
