@@ -1,7 +1,8 @@
 section.section3{
     background: black;
     color: white;
-    @include flexSpace;
+    display: flex;
+    justify-content: space-between;
     // height: 750px;
     gap: 150px;
   

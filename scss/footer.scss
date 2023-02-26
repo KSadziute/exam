@@ -1,6 +1,7 @@
 footer{
     background: black;
     @include flexSpace;
+    gap: 100px;
     padding: 0 70px;
     height: 100px;
   
@@ -8,7 +9,7 @@ footer{
   padding: 30px;
   display: flex;
   justify-content: space-between;
-  gap: 150px;
+  // gap: 150px;
     }
   
     h1{
