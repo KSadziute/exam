@@ -16,9 +16,14 @@ section.section6{
     }
   
     .swiper {
-      width: 70%;
+      max-width: 1200px;
       height: 400px;
       margin-top: 70px;
+    }
+
+    .swiper-pagination-bullet{
+      background: $salmon;
+     
     }
     
     .swiper-slide {
