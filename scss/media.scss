@@ -1,5 +1,10 @@
 @media (max-width:768px){
 
+    html, body{
+        width:100%;
+        overflow-x:hidden;
+        }
+
     .section1{
         // background: url(../images/bgsmall1.jpg);
         background-size: cover;
@@ -16,10 +21,28 @@
         button{
             width: 50%;
         }
+
+        .form1{
+          width: 00px;
+          height: 600px;
+           
+        }
     }
 
     header{
+height: 100%;
+display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
 
+.icons1{
+    display: flex;
+    flex-direction: row;
+    margin-left: -50px;
+   
+    
+    
+}
     }
 
     .section6{
@@ -36,7 +59,8 @@
        .prices{
         display: flex;
         flex-direction: column; 
-        margin: auto;
+        align-items: center;
+        margin-left: 60px !important;
         
        }
      }
@@ -47,7 +71,8 @@
         .reviews{
             display: flex;
             flex-direction: column; 
-            margin: auto; 
+           align-items: center;
+           margin-left: 20px !important;
         }
      }
 
@@ -55,11 +80,18 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin: auto;
+       align-items: center;
+
+        .text{
+        margin-left: 100px;
+        }
 
         img{
-            height: 100%;
-            width: 100%;
+           margin-top: 200px;
+            height: 90% !important;
+            width: 90% !important;
+            margin-left: -10px !important;
+            margin-bottom: -100px !important;
         }
      }
 
@@ -68,6 +100,12 @@
         display: flex;
         flex-direction: column;
         height: 100%;
+       
+        #antras{
+            p{
+                font-size: 0.9em !important;
+            }
+        }
 
 .img{
 display: flex !important;
@@ -88,6 +126,21 @@ flex-direction: column;
 }
 
 
+     }
+
+
+     footer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-left: -50px;
+    margin-bottom: -150px;
+}
      }
 }
 
@@ -111,9 +164,20 @@ flex-direction: column;
         }
     } 
 
-footer{
-    width: 100% !important;
-}
+    footer{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      
+        
+    
+    .icons1{
+       
+        display: flex;
+        flex-direction: row;
+      
+    }
+         }
 
 .section6{
    height: 100% !important;
@@ -131,6 +195,20 @@ footer{
      flex-direction: column; 
      justify-content: center;
      margin:auto;
+    }
+
+}
+
+header{
+    height: 100%;
+    display: flex;
+        flex-direction: column;
+    
+    .icons1{
+        display: flex;
+        flex-direction: row;
+   
+        
     }
 
 }
