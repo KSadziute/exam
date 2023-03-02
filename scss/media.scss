@@ -1,16 +1,16 @@
 @media(max-width:768px){
 
-nav{
-    width: 100% !important;
-    display: flex;
-    justify-content: space-between;
-    gap: 5px;
+// nav{
+//     max-width: 100% !important;
+//     display: flex;
+//     justify-content: space-between;
+//     gap: 5px;
     
-    img{
-        width: 30%;
-    }
+//     img{
+//         width: 30%;
+//     }
 
-}
+// }
 
 .section1{
     display: flex;
@@ -47,7 +47,7 @@ nav{
 }
 
 header{
-width: 100% !important;
+max-width: 100% !important;
 height: 100% !important;
 display: flex !important;
 // justify-content: space-around !important;
@@ -73,139 +73,139 @@ i{
 
 }
 
-.section2{
-    img{
-        height: 50% !important;
-        width: 50% !important;
-    }
-}
+// .section2{
+//     img{
+//         height: 50% !important;
+//         width: 50% !important;
+//     }
+// }
 
-.section3{
-   display: flex;
-   flex-wrap: wrap ;
-   flex-direction: column ;
+// .section3{
+//    display: flex;
+//    flex-wrap: wrap ;
+//    flex-direction: column ;
 
-    img{
-        width: 100% ;
-        margin-right: 150px;
-        // height: 50% !important;
-        margin-left: -60px;
-    }
-hr{
-    width: 60% ;
-    height: 5px;
-}
+//     img{
+//         max-width: 100% ;
+//         margin-right: 150px;
+//         // height: 50% !important;
+//         margin-left: -60px;
+//     }
+// hr{
+//     width: 60% ;
+//     height: 5px;
+// }
 
-    .text{
-        width: 100% ;
-        // text-align: center;
-        margin-left: 50px;
-        margin-top: -50px ;
-    }
-}
+//     .text{
+//         max-width: 100% ;
+//         // text-align: center;
+//         margin-left: 50px;
+//         margin-top: -50px ;
+//     }
+// }
 
 
-.section4{
+// .section4{
     
-    hr{
-        width: 60% !important;
-        height: 5px;
-    }
+//     hr{
+//         width: 60% !important;
+//         height: 5px;
+//     }
 
-    .reviews{
-        display: flex !important;
-        flex-direction: column !important;
+//     .reviews{
+//         display: flex !important;
+//         flex-direction: column !important;
 
-        .review1, .review2, .review3{
-width: 100% !important;
-margin-left: -55px;
+//         .review1, .review2, .review3{
+// width: 100% !important;
+// margin-left: -55px;
 
-h3, p{
-    text-align: left !important;
-}
+// h3, p{
+//     text-align: left !important;
+// }
 
-        }
-    }
-}
+//         }
+//     }
+// }
 
-.section5{
+// .section5{
 
-    hr{
-        width: 60% !important;
-        height: 5px;
-    }
+//     hr{
+//         width: 60% !important;
+//         height: 5px;
+//     }
 
-   .prices{
-    display: flex !important;
-        flex-direction: column !important;
+//    .prices{
+//     display: flex !important;
+//         flex-direction: column !important;
         
 
-        .price1, .price2, .price3{
-            width: 300px !important;
-        }
+//         .price1, .price2, .price3{
+//             width: 300px !important;
+//         }
 
-        .price2{
-            height: 710px !important;
-        }
- }
+//         .price2{
+//             height: 710px !important;
+//         }
+//  }
 
 
-}
+// }
 
-.section6{
-height: 100% !important;
+// .section6{
+// height: 100% !important;
 
-    .swiper{
-        width: 90% !important;
-        height: 400px !important;
+//     .swiper{
+//         width: 90% !important;
+//         height: 400px !important;
         
-    }
+//     }
 
-    .swiper-slide{
-        width: 30% !important;
+//     .swiper-slide{
+//         width: 30% !important;
        
    
        
-    }
-}
+//     }
+// }
 
-.section7{
+// .section7{
 
-    .form2{
-        width: 300px ;
-        height: 350px ;
-        position: relative;
+//     .form2{
+//         width: 300px ;
+//         height: 350px ;
+//         position: relative;
 
-        button{
-            width: 100%;
-         margin: auto;
-           position: absolute;
-           bottom: 0;
-           left: 0;
-        }
-    }
-}
+//         button{
+//             width: 100%;
+//          margin: auto;
+//            position: absolute;
+//            bottom: 0;
+//            left: 0;
+//         }
+//     }
+// }
 
-footer{
-    display: flex !important;
-    flex-direction: column !important;
-    flex-wrap: wrap !important;
-    width: 100% !important;
+// footer{
+//     display: flex !important;
+//     flex-direction: column !important;
+//     flex-wrap: wrap !important;
+//     width: 100% !important;
 
-    .icons{
-        margin-left: -60px;
-        display: flex !important;
-        justify-content: space-between !important;
-        gap: 5px;
+//     .icons{
+//         margin-left: -60px;
+//         display: flex !important;
+//         justify-content: space-between !important;
+//         gap: 5px;
         
-        img{
-            width: 20px !important;
-        }
+//         img{
+//             width: 20px !important;
+//         }
 
-        i{
-            margin-left: -7px;
-        }
-    }
+//         i{
+//             margin-left: -7px;
+//         }
+//     }
 
-}
+// }
 
