@@ -5,7 +5,10 @@ header{
     padding: 0 70px;
     height: 125px;
    
-   
+   .icons1{
+    display: flex;
+    justify-content: space-between;
+   }
     
     img{
       height: 1px;
